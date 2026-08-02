@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Project</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-------------header---------------->
+    <header class="header">
+        <a href=""><img src="./images/file_000000001ddc81f4a31c26e0a7a43208 (1).png" alt=""></a>
+        <nav class="nav" id="nav">
+            <div class="me" id="me" onclick="closeMenu()">&#9776</div>
+
+            <ul>
+                <button><a href="index.html" style="text-decoration: none; color: #000; ">Home</a></button>
+                <button><a href="about.html" style="text-decoration: none; color: #000;">About me</a></button>
+                <button><a href="services.html" style="text-decoration: none; color: #000;">Services</a></button>
+                <button><a href="portfolio.html" style="text-decoration: none; color: #000;">Skills</a></button>
+                <button><a href="contact.html" style="text-decoration: none; color: #000;">Contact</a></button>
+            </ul>
+
+        </nav>
+        <div class="me" id="me" onclick="openMenu()">&#9776</div>
+    </header>
+
+    <!------------sub-header section---------------->
+    <section class="sub-header" id="sub-header">
+        <h1>Contact <span>Me</span></h>
+    </section>
+
+    <!---------contact section------------->
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h4 class="dot">Get in Touch...</h4>
+            <p> Have a project in mind or need a professional website for your business, organization, or
+                personal brand? I'd love to hear from you. Whether you're looking to build a new website,
+                redesign an existing one, or have questions about my services, I'm here to help.
+                Feel free to reach out using the contact form below or through any of the contact details
+                provided. I aim to respond as quickly as possible and look forward to discussing how we can
+                bring your ideas to life.
+                Let's build something amazing together.</p>
+            <div class="list">
+                <li><a href="">+23470000000000</a></li>
+                <li><a href="">zahrabolanle@gmail.com</a></li>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="name" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="number" placeholder="Your Mobile Number" required>
+                <textarea name="" id="" cols="35" rows="10" placeholder="How can I assist you?" required></textarea>
+                <button class="link"
+                    onclick="window.open('mailto:zahrabolanle@gmail.com?subject=Connecting with you X zahra engines&body=Hi%20Zahra%20I%20want%20to%20have%20a%20word%20with%20you...')"><input
+                        type="submit" value="Send Message" class="submit"></button>
+            </form>
+        </div>
+    </section>
+
+    <!---------------footer-------------------->
+    <footer class="footer" id="footer">
+        <div class="attribute">
+            <p>A product of Zahra Engines</p>
+        </div>
+        <div class="move-up">
+            <a href="#sub-header" style="text-decoration: none; color: #40e0d0">&uarr;</a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
